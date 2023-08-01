@@ -21,25 +21,4 @@ const sendEmail = async (data) => {
   return true;
 };
 
-// console.log(
-//   sendEmail({
-//     to: "sikaka6853@mliok.com",
-//     subject: "Hello its me",
-//     text: "Привіт. Ми тестуєм",
-//   })
-// );
-
-// const transporter = nodemailer.createTransport(config);
-// const emailOptions = {
-//   from: EMAIL,
-//   to: "sikaka6853@mliok.com",
-//   subject: "Testing message",
-//   text: "Ми тестуємо надсилання листів!",
-// };
-
-// transporter
-//   .sendMail(emailOptions)
-//   .then((info) => console.log(info))
-//   .catch((err) => console.log(err));
-
 module.exports = sendEmail;
